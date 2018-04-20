@@ -9,11 +9,11 @@ import sys
 
 result = "{}"
 def index(request):
-    if request.GET["id"] == "nlp1" :
-        test_str = request.GET["keyword"]
+    if request.GET["id"] == "api1" :
+        test_str = request.GET["api1"]
 
 
-    elif request.GET["id"] == "nlp2" :
-        test_str = request.GET["menu_list"]
+    elif request.GET["id"] == "api2" :
+        test_str = request.GET["api2"]
 
     return HttpResponse(result)
